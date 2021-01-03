@@ -2,6 +2,7 @@ version: "3"
 services:
   node:
     build: ./
+    container_name: "node"
     user: "node"
     volumes:
         - ./:/usr/src/app
