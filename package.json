@@ -8,7 +8,8 @@
     "express"
   ],
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.1",
+    "pino": "^6.9.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
